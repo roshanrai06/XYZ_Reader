@@ -1,0 +1,10 @@
+<resources>
+    <!-- list -->
+    <integer name="articles_column_count">3</integer>
+
+    <!-- detail -->
+    <dimen name="article_detail_card_max_width">704dp</dimen>
+    <dimen name="article_detail_anchor_height">144dp</dimen>
+    <dimen name="article_detail_content_margin_bottom">48dp</dimen>
+
+</resources>

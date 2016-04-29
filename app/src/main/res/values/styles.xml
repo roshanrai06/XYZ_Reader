@@ -1,0 +1,45 @@
+<!-- File created by the Android Action Bar Style Generator
+
+     Copyright (C) 2012 readyState Software Ltd
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <style name="ArticleDetailAnchor">
+        <item name="android:layout_alignTop">@id/article_detail_photo_container</item>
+        <item name="android:layout_alignBottom">@id/article_detail_photo_container</item>
+    </style>
+
+    <!-- Toolbar -->
+
+    <style name="ActionBar.ThemeOverlay" parent="">
+        <item name="android:textColorPrimary">#fff</item>
+        <item name="colorControlNormal">#fff</item>
+        <item name="colorControlHighlight">#3fff</item>
+    </style>
+
+    <style name="ActionBar.PopupThemeOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="ActionBar.TitleText" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/body_text_white</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+    </style>
+
+    <style name="ActionBar.Subtitle" parent="TextAppearance.AppCompat.Widget.ActionBar.Subtitle">
+        <item name="android:textColor">@color/body_text_white</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+    </style>
+
+</resources>
