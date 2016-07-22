@@ -37,6 +37,9 @@ Features
 - Standard Material Design specific layouts and elevations
 - Full Screen View Pager providing a horizontal scroll to view another set of article
 
+## Android Developer Nanodegree
+[![udacity][1]][2]
+
 [1]: ../master/art/nanodegree-logo.png
 [2]: https://www.udacity.com/course/android-developer-nanodegree--nd801
 
